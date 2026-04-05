@@ -1,0 +1,15 @@
+#include <stdio.h>
+#include <math.h>
+
+int main() {
+    int numero, elevado, eleva;
+    
+    printf("digite o numero que vc quer elevar:");
+    scanf("%d",&numero);
+    
+    printf("digite a potenciaçao:");
+    scanf("%d",&elevado);
+    
+    eleva = pow(numero,elevado);
+    printf("%d elevado a %d = %d",numero,elevado,eleva);
+}
