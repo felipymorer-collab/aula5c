@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+float M,C,i;
+int t;
+printf("qual o valor investido inicial;  ");
+scanf("%f",&C);
+
+printf("qual a taxa de juros?em porcentagem  ");
+scanf("%f",&i);
+i = i/100;
+t = 1;
+
+
+ 
+ 
+ for (;t<=12;t++) {
+      M = C * (1 + i * t);
+printf("Mes %d: %.2f \n",t,M  );
+}
+return 0;
+}
